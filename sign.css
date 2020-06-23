@@ -1,0 +1,76 @@
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            background-color: #28b389;
+        }
+        
+        .container {
+            width: 20%;
+            height: 280px;
+            position: absolute;
+            top: 25%;
+            left: 37%;
+            /* background-color: gray; */
+            /* border: 3px solid red; */
+        }
+        
+        h1 {
+            border-bottom: 3px solid gray;
+            margin-bottom: 30px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        
+        box {
+            border-bottom: 2px solid gray;
+        }
+        
+        box input {
+            background: none;
+            border: none;
+            outline: none;
+            color: white;
+            margin-bottom: 20px;
+            margin: 20px 20px;
+            font-size: 15px;
+            text-align: left;
+            font-style: italic;
+        }
+        
+        .container {
+            background: #28b389;
+            border-radius: 15px;
+            box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 5px 5px 5px rgba(0, 0, 0, 0.1), inset -5px -5px 5px rgba(255, 255, 255, 0.2), 5px 5px 5px rgba(0, 0, 0, 0.1);
+            color: gray;
+        }
+        
+        div {
+            margin-left: 28px;
+        }
+        
+        .button {
+            color: #375a6e;
+            border: none;
+            margin: 15px;
+            padding: 10px 15px;
+            font-size: 15px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.5s;
+            transition-property: box-shadow;
+        }
+        
+        .button {
+            background: #28b389;
+            box-shadow: 0 0 25px #28b389;
+        }
+        
+        .button:hover {
+            box-shadow: 0 0 5px #b3a528, 0 0 25px #10144d, 0 0 50px #10144d, 0 0 100px #28b389;
+        }
